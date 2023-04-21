@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightblue;
+}
+header{
+    text-align: center;
+    background-color: darkblue;
+    height: 70px;
+    color: whitesmoke;
+    padding-top: 10px;
+}
+.formulario{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+main{
+    width: 1100px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+.div{
+}
+.primeiro-lado div,
+.segundo-lado div{
+    padding: 10%;
+}
+.segundo-lado{
+    margin-top: 60px;
+} 
+.alinhar{
+    padding-left: 175px;
+    margin-top: 10px;
+
+}
+input div{
+    border-radius: 10px;
+}
+.input-texto{
+    height: 25px;
+    width: 150px;
+}
+#estado{
+    height: 25px;
+    width: 100px;
+}
+.input-text{
+    height: 25px;
+    width: 250px;
+}
+#pai{
+    height: 25px;
+    width: 200px;
+}
+.texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tamanho-botao{
+    height: 35px;
+    background-color: darkblue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 10px;
+    
+    
+}
+.joia{
+    text-align: center;
+    margin: 0 auto;
+}

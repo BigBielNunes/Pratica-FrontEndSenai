@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>
+    <main>
+        <form action="sucesso.html" method="post">
+            <div class="formulario">
+                <div class="primeiro-lado">
+                    <div class="div">
+                        <label for="nc" class="texto">Nome Completo:</label class="texto"><br>
+                        <input type="text" name="NomeCompleto" id="nc" class="input-text" placeholder="Nome Completo" minlength="7" maxlength="40" required>
+                    </div>
+                    <div class="div">
+                        <label for="rg" class="texto">RG:</label><br>
+                        <input type="text" name="Rg" id="rg" class="input-texto" placeholder="00.000.000-0" minlength="12" maxlength="12" required>
+                    </div>
+                    <div class="div">
+                        <label for="pai" class="texto">Pai:</label><br>
+                        <input type="text" name="Pai" id="pai" placeholder="Nome do Pai" minlength="3" maxlength="25" required>
+                    </div>
+                    <div class="div">
+                        <p>Escolaridade:</p>
+                        <select name="Escolaridade" id="estado" required>
+                            <option value="NULL">Selecione</option>
+                            <option value="SC">Superior Completo</option>
+                            <option value="SI">Superior Incompleto</option>
+                            <option value="MC">Médio Completo</option>
+                            <option value="MI">Médio Incompleto</option>
+                            <option value="O">Outros</option>
+                        </select>
+                    </div>
+                    <div class="div">
+                        <label for="telefone" class="texto">Telefone:</label> <br>
+                        <input type="text" name="Telefone" id="telefone" class="input-texto" placeholder="0000-0000" minlength="8" maxlength="8" >
+                    </div>
+                    <div class="div">
+                        <label for="email" class="texto">E-mail:</label> <br>
+                        <input type="email" name="Email" id="email" class="input-text" placeholder="exemplo@email.com" minlength="10" maxlength="45" required>
+                    </div>
+                </div>
+                <div class="segundo-lado">
+                    <div class="div">
+                        <label for="dc" class="texto">Data de Nascimento:</label> <br>
+                        <input type="date" name="DataNascimento" id="dc" class="input-texto" required>
+                    </div>
+                    <div class="div">
+                        <label for="cpf" class="texto">CPF:</label><br>
+                        <input type="text" name="Cpf" id="cpf" class="input-texto" placeholder="000.000.000-0" minlength="13" maxlength="13" required>
+                    </div>
+                    <div class="div">
+                        <label for="mae" class="texto">Mãe:</label> <br>
+                        <input type="text" name="mae" id="mae" class="input-texto" placeholder="Nome da Mãe" minlength="3" maxlength="25" required>
+                    </div>
+                    <div class="div">
+                        <label for="profissao" class="texto">Profissão:</label>
+                        <input type="text" name="profissao" id="profissao" class="input-texto" placeholder="Profissão" minlength="4" maxlength="18">
+                    </div>
+                    <div class="div">
+                        <label for="celular" class="texto">Celular:</label><br>
+                        <input type="text" name="celular" id="celular" class="input-texto" placeholder="(00) 0000-0000" minlength="13" maxlength="13" required>
+                    </div>
+                </div>
+            </div>
+            <div class="alinhar">
+                <input type="submit" value="Cadastrar" class="tamanho-botao">
+                <input type="submit" value="Limpar Campos" class="tamanho-botao">
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
