@@ -1,0 +1,243 @@
+/* order atribui uma ordem especifica as divs por padrão vem o 0 */
+/* flex-grow atributo da a uma div a capacidade de crescer no espaço que ela tem reservado no container por padrão vem o 0 */
+/* flex-shrink atributo que da a uma div a capacidade de diminuir por padrão vem o 1*/
+/* flex-basis atributo que é possivel definir o tamanho da div ele segue o flex-direction, ou seja, se row ele vai crescer a largura se column ele vai crescer a altura */
+/* align-self alinha apenas aquela div e sempre alinha o eixo contrario ao flex flow, ou seja, se row alinha a altura se column alinha a na largura ou linha */
+/* flex comando que é possivel colocar o flex- shrink, flex-basis, flex-grow */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+.container{
+    border: 2px solid black;
+    height: 700px;
+    width: 1000px;
+    margin-left: 500px;
+    margin-top: 70px;
+    background-color: rgb(34, 34, 122);
+    border-radius: 5px;
+}
+.central-1{
+    /* border: 2px solid darkblue; */
+    width: 60%;
+    height: 20%;
+    margin-left: 20%;
+    text-align: center;
+    padding-top: 3%;
+    color: white;
+}
+.central-2{
+    /* border: 2px solid darkgoldenrod; */
+    width: 98%;
+    height: 80%;
+    margin-left: 1%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(34, 34, 122);
+    
+}
+.box-1{
+    /* border: 2px solid darkmagenta; */
+    height: 88%;
+    width: 30%;
+    align-self: flex-end;
+    margin-bottom: 3%;
+    background-color: white;
+    border-radius: 10px;
+}
+.box-2{
+    /* border: 2px solid darkkhaki; */
+    height: 95%;
+    width: 30%;
+    background-color: white;
+    border-radius: 10px;
+}
+.bord{
+    /* border: 2px solid darkgreen; */
+    height: 35%;
+    margin-bottom: 1%;
+    margin-top: 3%;
+    text-align: center;
+}
+.bor{
+    /* border: 2px solid darkmagenta; */
+    height: 15%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-size: 30px;
+}
+.bo{
+    /* border: 2px solid darkred; */
+    height: 25%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+.b{
+    /* border: 2px solid darkslategray; */
+    height: 15%;
+    margin-bottom: 1%;
+}
+.imagem-1{
+    /* border: 2px solid darkgreen; */
+    width: 40%;
+    height: 77%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    background: url('img/icon1.png');
+    background-size: cover;
+}
+.imagem-3{
+    /* border: 2px solid pink; */
+    width: 40%;
+    height: 77%;
+    margin-bottom: 2%;
+    margin-left: 30%;
+    background: url('img/icon3.png');
+    background-size: cover;
+}
+.pp{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    padding-top: 1%;
+}
+.pq{
+    /* border: 2px solid blue; */
+    width: 50%;
+    height: 85%;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+.pl{
+    /* border: 2px solid darkturquoise; */
+    height: 90%;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding-top: 3%;
+}
+.butao-1{
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.a{
+    /* border: 2px solid darkblue; */
+    height: 7%;
+    text-align: center;
+}
+.bt{
+    /* border: 2px solid darkorchid; */
+    height: 32%;
+    text-align: center;
+}
+.c{
+    /* border: 2px solid darkorange; */
+    height: 15%;
+    text-align: center;
+    font-size: 30px;
+}
+.d{
+    /* border: 2px solid darkgreen; */
+    height: 25%;
+    text-align: center;
+}
+.e{
+    /* border: 2px solid darkred; */
+    height: 15%;
+}
+.f{
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 70%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.imagem-2{
+    /* border: 2px solid darkgreen; */
+    height: 80%;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    background: url('img/icon2.png');
+    background-size: cover;
+}
+.h{
+    /* border: 2px solid darkblue; */
+    height: 15%;
+    width: 60%;
+    margin-left: 20%;
+
+}
+.i{
+    /* border: 2px solid pink; */
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+.j{
+    /* border: 2px solid yellow; */
+    width: 70%;
+    height: 80%;
+    margin-left: 15%;
+    margin-top: 3%;
+    padding-top: 3%;
+}
+.butao-2{
+    /* border: 2px solid purple; */
+    /* border: 2px solid black; */
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 2%;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+.ajustar{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(34, 34, 122);
+    color: white;
+    border-radius: 15px;
+}
+#co{
+    text-decoration: none;
+    color: blue;
+}
+#color{
+    color: white;
+    text-decoration: none;
+}
+.ajustar:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.ajusta{
+    height: 30px;
+    width: 150px;
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border-color: white;
+}
+.ajusta:hover{
+    background-color: rgb(34, 34, 122);
+    cursor: pointer;
+    transition: 0.4ms;
+}
+#co:hover{
+    color: white;
+    transition: 0.2ms;
+}
