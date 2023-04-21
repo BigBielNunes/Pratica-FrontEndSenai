@@ -1,0 +1,100 @@
+/* a[href= (^ ouqe tiver no começo) ($oque tiver no final) (* que tenha isso na palavra) */
+/* myh-child utilizamos para selecionar a tag pela sua orderm que esta no codigo 
+ex div  containernt-child(2n) or (even que prega os pares)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div{
+    height: 100px;
+    width: 200px;
+    /* border: 2px solid black; */
+}
+.contato{
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagem-contato{
+    padding-left: 2%;
+}
+.cadastro-usuario{
+    display: flex;
+}
+.lista{
+    display: flex;
+    justify-content: space-around;
+}
+.flex{
+    /* border: 2px solid darkgoldenrod; */
+    height: 100%;
+    width: 70%;
+}
+.borda-1{
+    height: 100%;
+    width: 30%;
+    /* border: 2px solid pink; */
+    padding-top: 20px;
+}
+.borda-2{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.borda-3{
+    /* border: 2px solid blue; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding-left: 2px;
+    align-items: flex-start;
+}
+.input-contato{
+    width: 400px;
+    padding-top: 20px;
+}
+#botao{
+    height: 50px;
+    width: 100%;
+    border-radius: 7px;
+}
+.borda-4{
+    /* border: 2px solid darkgreen; */
+    height: 100%;
+    width: 60px;
+    padding-top: 20px;
+}
+.borda-5{
+    /* border: 2px solid darkmagenta; */
+    height: 50%;
+    width: 136px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.borda-6{
+    /* border: 2px solid darkmagenta; */
+    height: 50%;
+    width: 136px;
+   
+    padding-left: 5px;
+}
+li{
+    list-style-type: none;
+}
+.caixa{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    padding-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
