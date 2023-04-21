@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;;
+}
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    width: 1400px;
+    margin-left: 250px;
+    margin-top: 100px;
+    height: 700px;
+    background-color: rgb(22, 22, 85);
+}
+.caix{
+    /* border: 2px solid green; */
+    width: 400px;
+}
+.caixa{
+    /* border: 2px solid blue; */
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+.bor{
+    /* border: 3px solid darkred; */
+    height: 280px;
+}
+.boe{
+    /* border: 3px solid darkred; */
+    height: 300px;
+}
+.b{
+    /* border: 3px solid darkgreen; */
+    display: flex;
+    padding-left: 30px;
+}
+.bop{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-end;
+    gap: 40px;
+}
+.bot{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.box{
+    /* border: 3px solid darkgoldenrod; */
+    width: 320px;
+}
+.imagem{
+    /* border: 3px solid darkorchid; */
+    height: 600px;
+    background: url('img/paul.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    /* border: 3px solid darkorchid; */
+    height: 600px;
+    background: url('img/keanu.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imag{
+    /* border: 3px solid darkorchid; */
+    height: 600px;
+    background: url('img/adam.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cor{
+    color: white;
+    text-align: center;
+}
+.co{
+    color:white;
+}
+.c{
+
+}
+.c{
+    color: rgb(64, 163, 202);
+}
