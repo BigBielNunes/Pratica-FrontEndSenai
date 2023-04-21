@@ -1,0 +1,62 @@
+body{
+    background-color: darkblue;
+}
+.imagem {
+    width: 50%;
+    margin-left: 20%;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 150px;
+}
+.texto{
+    width: 90%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.formulario{
+    height: 80%;
+    width: 50%;
+    padding-top: 100px;
+    background-color: aquamarine;
+  
+}
+.borda{
+    width: 100%;
+
+}
+#foto{
+    width: 100%;
+}
+.input{
+    margin: 10px;
+}
+.alinhamento{
+    text-align: center;
+}
+.alinhar{
+
+    margin: 10px;
+    padding: 5 px;
+}
+#submit{
+    width: 90%;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+a{
+    text-decoration: none;
+}
+.sobre-senha{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
