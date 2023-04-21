@@ -1,0 +1,116 @@
+*{
+    margin : 0;
+}
+body{
+    background-color: lightblue
+}
+header{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: darkblue;
+    padding-right: 20px;
+    align-items: center;
+}
+#imagem-navbar{
+    width: 13.5%;
+}
+ul{
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+}
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.8;
+}
+ul a:hover{
+    opacity: 1;
+    transition: 0.4s;
+}
+.imagem{
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+.card{
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 500px;
+}
+main{
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.div{
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+.div-1{
+    background: url("img/macbook.jpg");
+    background-size: cover;
+}
+.div-2{
+    background: url("img/macbook3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+
+}
+.div-3{
+    background: url("img/macbook2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+.div-4{
+    background-image: url("img/fundo.jpg");
+    background-size: cover;
+}
+.div-5{
+    background: url("img/watch.jpg");
+    background-size: cover;
+}
+.div-6{
+    background: url("img/mouse.webp");
+    background-size: cover;
+}
+.div-7{
+    background: url("img/headphone.jpg");
+    background-size: cover;
+}
+.div-8{
+    background: url("img/imac.jpg");
+    background-size: cover;
+}
+.div-9{
+    background: url("img/teclado.jpg");
+    background-size: contain;
+    background-position-y:center;
+    background-repeat: no-repeat;
+}
+footer{
+    text-align: center;
+}
+span{
+    color: red;
+}
