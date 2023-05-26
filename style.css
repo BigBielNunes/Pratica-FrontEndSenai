@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(28, 28, 73);
+}
+.container{
+    background-color: azure;
+    height: 500px;
+    width: 30%;
+    border: 2px solid black;
+    margin-left: 700px;
+    margin-top: 150px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#numero1{
+    width: 300px;
+    height: 30px;
+}
+#numero2{
+    width: 300px;
+    height: 30px;
+}
+#resultado{
+    width: 300px;
+    height: 30px;
+}
+#butao{
+    width: 300px;
+    height: 30px;
+}
+.selecao{
+    display: flex;
+    gap: 20px;
+}
